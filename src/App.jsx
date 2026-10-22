@@ -1,10 +1,11 @@
+import SectionTitle from './components/SectionTitle/SectionTitle';
+
 function App() {
   return (
     <main>
-      <h2>Portfólio em construção</h2>
+      <SectionTitle numero="01" rotulo="sobre" titulo="Quem sou eu" />
     </main>
-
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,17 @@
+.container {
+    margin-bottom: 2.5rem;
+}
+
+.rotulo {
+    font-family: var(--fonte-rotulo);
+    color: var(--cor-destaque);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+}

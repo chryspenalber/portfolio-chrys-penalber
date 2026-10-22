@@ -11,7 +11,9 @@
     --fonte-rotulo: 'JetBrains Mono', monospace;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -28,7 +30,9 @@ body {
     line-height: 1.6;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: var(--fonte-titulo);
 }
 
@@ -36,4 +40,3 @@ img {
     max-width: 100%;
     display: block;
 }
-
