@@ -1,0 +1,39 @@
+:root {
+    /* Cores */
+    --cor-fundo: #FEFEFE;
+    --cor-texto: #48356D;
+    --cor-destaque: #6E499B;
+    --cor-borda: #D2D3D5;
+
+    /* Fontes */
+    --fonte-titulo: 'Chakra Petch', sans-serif;
+    --fonte-texto: 'Montserrat', sans-serif;
+    --fonte-rotulo: 'JetBrains Mono', monospace;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: var(--fonte-texto);
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: var(--fonte-titulo);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
