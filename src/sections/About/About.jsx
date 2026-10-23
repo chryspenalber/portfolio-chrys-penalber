@@ -1,17 +1,19 @@
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import foto from '../../assets/foto-chrystiana.jpg';
+import styles from './About.module.css';
 
 function About() {
   return (
     <section id="sobre">
       <SectionTitle numero="01" rotulo="sobre" titulo="Quem sou eu" />
 
-      <div>
+      <div className={styles.conteudo}>
         <img
+          className={styles.foto}
           src={foto}
           alt="Chrystiana sorrindo numa rua de Paris ao entardecer."
         />
-        <div>
+        <div className={styles.texto}>
           <p>
             Trabalho com atendimento e experiência do cliente há mais de dez
             anos, passando por hotelaria, banco e previdência, no Brasil e nos
@@ -30,7 +32,7 @@ function About() {
             Busco minha primeira oportunidade como desenvolvedora Front-End
             júnior, presencial, híbrida ou remota.
           </p>
-          <ul>
+          <ul className={styles.contatos}>
             <li>
               <a href="mailto:chrystianapenalber@hotmail.com">
                 chrystianapenalber@hotmail.com
