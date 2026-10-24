@@ -1,0 +1,15 @@
+.intro {
+  max-width: 60ch;
+  margin-bottom: 2.5rem;
+}
+
+.grade {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .grade {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
