@@ -1,4 +1,5 @@
 import styles from './ProjectCard.module.css';
+import TagList from '../TagList/TagList';
 
 function ProjectCard({
   titulo,
@@ -19,11 +20,7 @@ function ProjectCard({
       <div className={styles.conteudo}>
         <h3 className={styles.titulo}>{titulo}</h3>
         <p>{descricao}</p>
-        <ul className={styles.tecnologias}>
-          {tecnologias.map((tecnologia) => (
-            <li key={tecnologia}>{tecnologia}</li>
-          ))}
-        </ul>
+        <TagList itens={tecnologias} />
         <div className={styles.links}>
           <a href={repositorio} target="_blank" rel="noopener noreferrer">
             Ver código

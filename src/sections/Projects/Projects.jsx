@@ -13,7 +13,7 @@ function Projects() {
         primeiro layout em HTML e CSS até aplicações com React e Next.js.
       </p>
 
-      <div  className={styles.grade}>
+      <div className={styles.grade}>
         {projects.map((projeto) => (
           <ProjectCard key={projeto.id} {...projeto} />
         ))}

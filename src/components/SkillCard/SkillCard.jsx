@@ -1,4 +1,5 @@
 import styles from './SkillCard.module.css';
+import TagList from '../TagList/TagList';
 
 function SkillCard({ numero, titulo, descricao, itens }) {
   return (
@@ -6,11 +7,7 @@ function SkillCard({ numero, titulo, descricao, itens }) {
       <span className={styles.numero}>{numero}</span>
       <h3 className={styles.titulo}>{titulo}</h3>
       <p className={styles.descricao}>{descricao}</p>
-      <ul className={styles.itens}>
-        {itens.map((item) => (
-          <li key={item}>{item}</li>
-        ))}
-      </ul>
+      <TagList itens={itens} />
     </article>
   );
 }

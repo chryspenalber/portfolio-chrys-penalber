@@ -24,22 +24,6 @@
   line-height: 1.2;
 }
 
-.tecnologias {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.tecnologias li {
-  font-family: var(--fonte-rotulo);
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border: 1px solid var(--cor-borda);
-  padding: 0.2rem 0.6rem;
-}
-
 .links {
   display: flex;
   gap: 1.5rem;
