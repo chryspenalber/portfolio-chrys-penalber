@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
+import ContactLinks from '../../components/ContactLinks/ContactLinks';
 import styles from './Contact.module.css';
 
 const urlFormspree = 'https://formspree.io/f/xnpppglj';
@@ -108,6 +109,11 @@ function Contact() {
           </p>
         )}
       </form>
+
+      <div className={styles.direto}>
+          <p>Prefere falar direto? Você também me encontra por aqui.</p>
+          <ContactLinks />
+      </div>
     </section>
   );
 }
