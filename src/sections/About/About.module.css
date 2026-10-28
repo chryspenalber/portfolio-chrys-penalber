@@ -13,20 +13,6 @@
   gap: 1rem;
 }
 
-.contatos {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 1.5rem;
-  margin-top: 1rem;
-  font-family: var(--fonte-rotulo);
-  font-size: 0.85rem;
-}
-
-.contatos a {
-  color: var(--cor-destaque);
-}
-
 @media (min-width: 768px) {
   .conteudo {
     grid-template-columns: 2fr 3fr;

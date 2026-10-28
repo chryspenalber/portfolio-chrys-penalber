@@ -1,4 +1,5 @@
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
+import ContactLinks from '../../components/ContactLinks/ContactLinks';
 import foto from '../../assets/foto-chrystiana.jpg';
 import styles from './About.module.css';
 
@@ -32,32 +33,7 @@ function About() {
             Busco minha primeira oportunidade como desenvolvedora Front-End
             júnior, presencial, híbrida ou remota.
           </p>
-          <ul className={styles.contatos}>
-            <li>
-              <a href="mailto:chrystianapenalber@hotmail.com">
-                chrystianapenalber@hotmail.com
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/chryspenalber"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/chrystiana-penalber"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn
-              </a>
-            </li>
-            <li>Lisboa, Portugal</li>
-          </ul>
+          <ContactLinks />
         </div>
       </div>
     </section>
