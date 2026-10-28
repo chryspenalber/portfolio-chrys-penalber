@@ -14,6 +14,7 @@ function Contact() {
   function handleChange(event) {
     const { name, value } = event.target;
     setDados({ ...dados, [name]: value });
+    setStatus('inicial');
   }
 
   async function handleSubmit(event) {

@@ -1,0 +1,69 @@
+.intro {
+  max-width: 60ch;
+  margin-bottom: 2.5rem;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: 560px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.campo label {
+  font-family: var(--fonte-rotulo);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.campo input,
+.campo textarea {
+  font: inherit;
+  color: inherit;
+  background-color: var(--cor-fundo);
+  border: 1px solid var(--cor-borda);
+  padding: 0.75rem;
+}
+
+.campo textarea {
+  resize: vertical;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+  outline: 2px solid var(--cor-destaque);
+  outline-offset: 2px;
+}
+
+.botao {
+  align-self: flex-start;
+  font-family: var(--fonte-rotulo);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--cor-fundo);
+  background-color: var(--cor-destaque);
+  border: none;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+}
+
+.botao:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.sucesso {
+  color: var(--cor-destaque);
+}
+
+.erro {
+  color: var(--cor-erro);
+}
