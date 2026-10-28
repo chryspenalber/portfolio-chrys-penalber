@@ -43,16 +43,8 @@
 }
 
 .botao {
+  composes: botaoPrincipal from '../../styles/shared.module.css';
   align-self: flex-start;
-  font-family: var(--fonte-rotulo);
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--cor-fundo);
-  background-color: var(--cor-destaque);
-  border: none;
-  padding: 0.8rem 1.5rem;
-  cursor: pointer;
 }
 
 .botao:disabled {
@@ -69,8 +61,8 @@
 }
 
 .direto {
-    max-width: 560px;
-    margin-top: 3rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--cor-borda);
+  max-width: 560px;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--cor-borda);
 }

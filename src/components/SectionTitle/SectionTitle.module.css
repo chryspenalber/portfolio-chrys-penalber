@@ -1,17 +1,13 @@
 .container {
-    margin-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .rotulo {
-    font-family: var(--fonte-rotulo);
-    color: var(--cor-destaque);
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+  composes: rotulo from '../../styles/shared.module.css';
 }
 
 .titulo {
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 1.1;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.1;
 }

@@ -1,0 +1,33 @@
+/* Estilos usados em mais de um componente, reaproveitados com composes */
+
+.rotulo {
+  font-family: var(--fonte-rotulo);
+  color: var(--cor-destaque);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.botao {
+  display: inline-block;
+  font-family: var(--fonte-rotulo);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border: 1px solid var(--cor-destaque);
+  cursor: pointer;
+}
+
+.botaoPrincipal {
+  composes: botao;
+  color: var(--cor-fundo);
+  background-color: var(--cor-destaque);
+}
+
+.botaoSecundario {
+  composes: botao;
+  color: var(--cor-destaque);
+  background-color: transparent;
+}

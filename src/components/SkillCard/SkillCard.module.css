@@ -1,20 +1,20 @@
 .card {
-    border: 1px solid var(--cor-borda);
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
+  border: 1px solid var(--cor-borda);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 }
 
 .numero {
-    font-family: var(--fonte-titulo);
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 1;
-    color: var(--cor-destaque);
+  font-family: var(--fonte-titulo);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--cor-destaque);
 }
 
 .titulo {
-    font-size: 1.25rem;
-    line-height: 1.2;
+  font-size: 1.25rem;
+  line-height: 1.2;
 }
