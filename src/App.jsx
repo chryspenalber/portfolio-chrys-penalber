@@ -1,3 +1,4 @@
+import Header from './components/Header/Header';
 import Hero from './sections/Hero/Hero';
 import About from './sections/About/About';
 import Projects from './sections/Projects/Projects';
@@ -6,13 +7,16 @@ import Contact from './sections/Contact/Contact';
 
 function App() {
   return (
-    <main>
-      <Hero />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
-    </main>
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Skills />
+        <Contact />
+      </main>
+    </>
   );
 }
 
