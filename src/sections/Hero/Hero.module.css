@@ -1,0 +1,43 @@
+.hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.rotulo {
+  composes: rotulo from '../../styles/shared.module.css';
+}
+
+.nome {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+.resumo {
+  max-width: 50ch;
+  font-size: 1.1rem;
+}
+
+.acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+.botaoPrincipal {
+  composes: botaoPrincipal from '../../styles/shared.module.css';
+}
+
+.botaoSecundario {
+  composes: botaoSecundario from '../../styles/shared.module.css';
+}
+
+@media (min-width: 768px) {
+  .nome {
+    font-size: 4.5rem;
+  }
+}
