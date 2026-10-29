@@ -36,12 +36,6 @@
   resize: vertical;
 }
 
-.campo input:focus,
-.campo textarea:focus {
-  outline: 2px solid var(--cor-destaque);
-  outline-offset: 2px;
-}
-
 .botao {
   composes: botaoPrincipal from '../../styles/shared.module.css';
   align-self: flex-start;

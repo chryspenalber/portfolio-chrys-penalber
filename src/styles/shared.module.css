@@ -18,6 +18,10 @@
   padding: 0.8rem 1.5rem;
   border: 1px solid var(--cor-destaque);
   cursor: pointer;
+  transition:
+    background-color 0.2s,
+    color 0.2s,
+    border-color 0.2s;
 }
 
 .botaoPrincipal {
@@ -30,4 +34,17 @@
   composes: botao;
   color: var(--cor-destaque);
   background-color: transparent;
+}
+
+/* Só em dispositivos com mouse. No touch, o hover fica 'preso' depois do clique */
+@media (hover: hover) {
+  .botaoPrincipal:hover:not(:disabled) {
+    background-color: var(--cor-texto);
+    border-color: var(--cor-texto);
+  }
+
+  .botaoSecundario:hover:not(:disabled) {
+    color: var(--cor-fundo);
+    background-color: var(--cor-destaque);
+  }
 }

@@ -48,3 +48,13 @@ section {
   margin: 0 auto;
   padding: 5rem 1.5rem;
 }
+
+/* Contorno para quem navega pelo teclado */
+:focus-visible {
+  outline: 2px solid var(--cor-destaque);
+  outline-offset: 2px;
+}
+
+a:hover {
+  text-decoration: none;
+}
