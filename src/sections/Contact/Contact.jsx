@@ -111,8 +111,8 @@ function Contact() {
       </form>
 
       <div className={styles.direto}>
-          <p>Prefere falar direto? Você também me encontra por aqui.</p>
-          <ContactLinks />
+        <p>Prefere falar direto? Você também me encontra por aqui.</p>
+        <ContactLinks />
       </div>
     </section>
   );

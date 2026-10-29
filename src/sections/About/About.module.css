@@ -13,6 +13,10 @@
   gap: 1rem;
 }
 
+.contato {
+  margin-top: 1rem;
+}
+
 @media (min-width: 768px) {
   .conteudo {
     grid-template-columns: 2fr 3fr;

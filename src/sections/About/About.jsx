@@ -33,7 +33,9 @@ function About() {
             Busco minha primeira oportunidade como desenvolvedora Front-End
             júnior, presencial, híbrida ou remota.
           </p>
-          <ContactLinks />
+          <div className={styles.contatos}>
+            <ContactLinks />
+          </div>
         </div>
       </div>
     </section>
