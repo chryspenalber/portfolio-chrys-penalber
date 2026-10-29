@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styles from './Header.module.css';
-
+import logoFundoClaro from '../../assets/cp-logo-coding-fundo-claro.svg';
 
 // Seções do menu: o href deve ser igual ao id de cada seção
 const links = [
@@ -15,7 +15,8 @@ function Header() {
 
   return (
     <header className={styles.header}>
-      <a href="#inicio" className={styles.logo}>
+      <a href="#inicio" className={styles.marca}>
+        <img src={logoFundoClaro} alt="" className={styles.logo} />
         Chrys Penalber
       </a>
 
