@@ -1,4 +1,3 @@
-import ContactLinks from '../ContactLinks/ContactLinks';
 import styles from './Footer.module.css';
 
 function Footer() {
@@ -7,10 +6,12 @@ function Footer() {
 
   return (
     <footer className={styles.footer}>
-      <ContactLinks />
       <p className={styles.creditos}>
         © {ano} Chrystiana Penalber. Desenvolvido com React e Vite.
       </p>
+      <a href="#inicio" className={styles.topo}>
+        Voltar ao topo
+      </a>
     </footer>
   );
 }

@@ -12,6 +12,12 @@
   font-size: 0.75rem;
 }
 
+.topo {
+  font-family: var(--fonte-rotulo);
+  font-size: 0.75rem;
+  color: var(--cor-destaque);
+}
+
 @media (min-width: 768px) {
   .footer {
     flex-direction: row;
