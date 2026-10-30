@@ -12,6 +12,18 @@
   --fonte-rotulo: 'JetBrains Mono', monospace;
 }
 
+/* Segue o modo escuro do sistema: só as variáveis mudam, o resto do site acompanha */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --cor-fundo: #17131f;
+    --cor-texto: #e4dcf0;
+    --cor-destaque: #b796e6;
+    --cor-borda: #3b3448;
+    --cor-erro: #f2b8b5;
+  }
+}
+
 *,
 *::before,
 *::after {
