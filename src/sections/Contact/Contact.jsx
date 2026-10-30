@@ -12,9 +12,11 @@ function Contact() {
   const [dados, setDados] = useState(estadoInicial);
   const [status, setStatus] = useState('inicial');
 
+  // Uma função para os três campos. O name do input diz qual dado atualizar
   function handleChange(event) {
     const { name, value } = event.target;
     setDados({ ...dados, [name]: value });
+    // Apaga a mensagem de sucesso ou erro quando o usuário volta a digitar
     setStatus('inicial');
   }
 
@@ -33,6 +35,7 @@ function Contact() {
         body: JSON.stringify(dados),
       });
 
+      // Erro do servidor não vai cair no catch, então a resposta precisa ser conferida
       if (resposta.ok) {
         setStatus('sucesso');
         setDados(estadoInicial);
@@ -40,7 +43,7 @@ function Contact() {
         setStatus('erro');
       }
     } catch {
-      // Cai aqui quando não tem resposta (sem internet, por exemplo).
+      // Cai aqui quando não tem resposta (sem internet, por exemplo)
       setStatus('erro');
     }
   }

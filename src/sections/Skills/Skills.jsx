@@ -12,6 +12,7 @@ function Skills() {
         {skills.map((skill, index) => (
           <SkillCard
             key={skill.id}
+            // A numeração vem da posição na lista, então acompanha se a ordem mudar
             numero={String(index + 1).padStart(2, '0')}
             {...skill}
           />

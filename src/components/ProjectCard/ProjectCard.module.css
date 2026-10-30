@@ -27,6 +27,7 @@
 .links {
   display: flex;
   gap: 1.5rem;
+  /* Alinha os links no fundo dos cards da mesma linha */
   margin-top: auto;
   font-family: var(--fonte-rotulo);
   font-size: 0.85rem;

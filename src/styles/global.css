@@ -22,6 +22,7 @@
 
 html {
   scroll-behavior: smooth;
+  /* Ao clicar no menu, evita que o Header fixo cubra o título da seção */
   scroll-padding-top: 2rem;
 }
 

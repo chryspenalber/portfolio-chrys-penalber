@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 1rem;
   padding-block: 2.5rem;
+  /* O Footer ocupa a tela toda por causa da linha em cima, mas o conteúdo alinha com as seções de 1100px */
   padding-inline: max(1.5rem, (100% - 1100px) / 2 + 1.5rem);
   border-top: 1px solid var(--cor-borda);
 }

@@ -25,6 +25,7 @@ function ProjectCard({
           <a href={repositorio} target="_blank" rel="noopener noreferrer">
             Ver código
           </a>
+          {/* Quando o projeto não tem página publicada, o link não aparece */}
           {demo && (
             <a href={demo} target="_blank" rel="noopener noreferrer">
               Ver página

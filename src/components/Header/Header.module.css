@@ -7,6 +7,7 @@
   justify-content: space-between;
   align-items: center;
   padding-block: 1rem;
+  /* O Header ocupa a tela toda por causa da linha embaixo, mas o conteúdo alinha com as seções de 1100px */
   padding-inline: max(1.5rem, (100% - 1100px) / 2 + 1.5rem);
   background-color: var(--cor-fundo);
   border-bottom: 1px solid var(--cor-borda);
@@ -32,6 +33,7 @@
   composes: botaoSecundario from '../../styles/shared.module.css';
 }
 
+/* Duas classes para vencer o padding do .botao compartilhado, que tem o mesmo peso */
 .header .botaoMenu {
   padding: 0.4rem 0.9rem;
 }
@@ -67,6 +69,7 @@
 }
 
 @media (min-width: 768px) {
+  /* Duas classes pelo mesmo motivo do padding */
   .header .botaoMenu {
     display: none;
   }

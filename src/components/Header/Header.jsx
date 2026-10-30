@@ -23,6 +23,7 @@ function Header() {
       <button
         type="button"
         className={styles.botaoMenu}
+        // Avisam o leitor de tela se o menu está aberto e qual lista o botão controla
         aria-expanded={aberto}
         aria-controls="menu-principal"
         onClick={() => setAberto(!aberto)}
