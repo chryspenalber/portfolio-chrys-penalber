@@ -16,7 +16,7 @@ function About() {
         />
         <div className={styles.texto}>
           <p>
-            Trabalho com atendimento e experiência do cliente há mais de dez
+            Trabalho com atendimento e experiência do cliente há mais de quinze
             anos, passando por hotelaria, banco e previdência, no Brasil e nos
             Estados Unidos. Hoje sou Head de Customer Experience em uma empresa
             em Lisboa.
