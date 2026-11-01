@@ -189,12 +189,12 @@ This portfolio, built with React, is the final project of the Front-End Engineer
 
 Projects built during the course, in the order I learned each technology: from the first HTML and CSS layout to applications with React and Next.js.
 
-| Project | Description | Technologies | Links |
-| --- | --- | --- | --- |
-| Hércules | Tribute page to the Disney animated film, with trailer, characters, gallery and soundtrack | HTML, SCSS | [Code](https://github.com/chryspenalber/hercules) · [Page](https://chryspenalber.github.io/hercules) |
-| Address lookup with ViaCEP | Form that fills in the address automatically from the Brazilian ZIP code (CEP) entered | HTML, CSS, JavaScript, REST API | [Code](https://github.com/chryspenalber/tarefa-7-web-api) · [Page](https://chryspenalber.github.io/tarefa-7-web-api) |
-| To-do list | App to add, complete, filter and remove tasks, which are saved in the browser | React, Vite, Context API, localStorage | [Code](https://github.com/chryspenalber/tarefa-16-react-avancado) · [Page](https://tarefa-16-react-avancado.vercel.app) |
-| Travel portal | Destination guide with a page for each place, generated from the same data | Next.js, TypeScript | [Code](https://github.com/chryspenalber/tarefa-21-nextjs) · [Page](https://tarefa-21.vercel.app) |
+| Project                    | Description                                                                                | Technologies                           | Links                                                                                                                   |
+| -------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Hércules                   | Tribute page to the Disney animated film, with trailer, characters, gallery and soundtrack | HTML, SCSS                             | [Code](https://github.com/chryspenalber/hercules) · [Page](https://chryspenalber.github.io/hercules)                    |
+| Address lookup with ViaCEP | Form that fills in the address automatically from the Brazilian ZIP code (CEP) entered     | HTML, CSS, JavaScript, REST API        | [Code](https://github.com/chryspenalber/tarefa-7-web-api) · [Page](https://chryspenalber.github.io/tarefa-7-web-api)    |
+| To-do list                 | App to add, complete, filter and remove tasks, which are saved in the browser              | React, Vite, Context API, localStorage | [Code](https://github.com/chryspenalber/tarefa-16-react-avancado) · [Page](https://tarefa-16-react-avancado.vercel.app) |
+| Travel portal              | Destination guide with a page for each place, generated from the same data                 | Next.js, TypeScript                    | [Code](https://github.com/chryspenalber/tarefa-21-nextjs) · [Page](https://tarefa-21.vercel.app)                        |
 
 ---
 
