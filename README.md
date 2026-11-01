@@ -10,7 +10,7 @@
 
 # Portfólio | Chrystiana Penalber
 
-Este portfólio, desenvolvido em React, é o projeto final do curso de Engenheiro Front-End da EBAC. O objetivo era aplicar componentização, estilização modular e deploy. O site reúne uma apresentação, os projetos que fiz ao longo do curso, as tecnologias que uso e um formulário de contato.
+Este portfólio, desenvolvido em React, é o projeto final do curso de Engenharia Front-End da EBAC. O objetivo era aplicar componentização, estilização modular e deploy. O site reúne uma apresentação, os projetos que fiz ao longo do curso, as tecnologias que uso e um formulário de contato.
 
 **Acesse:** https://chryspenalber.vercel.app
 
